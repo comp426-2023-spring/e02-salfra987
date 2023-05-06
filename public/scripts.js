@@ -75,7 +75,7 @@ function viewRules(){
 	document.getElementById("rules-button").hidden = true;
 }
 
-function hiderules(){
+function hideRules(){
 	document.getElementById("rules").hidden = true;
     	document.getElementById("hide-rules-button").hidden = true;
     	document.getElementById("rules-button").hidden = false;

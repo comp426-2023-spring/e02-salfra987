@@ -28,3 +28,27 @@ function resetGame(){
 async function playGame(){
 	$('#userinput').hide();
 	$('#play').hide();
+
+        let game = $('input[type=radio][name=game]:checked').val();
+        let isOpponent = document.querySelector('#opponent').checked;
+        let shot = $('input[type=radio][name=shot]:checked').val();
+        let baseurl = window.location.href + 'app/'
+        let url = baseurl + game + '/play'
+
+	if(isOpponent){
+		url += '/' + shot
+	}
+
+	let response = await fetch(url)
+	let result = await response.json()
+
+	if(isOpponent) {
+		$('#results').show();
+		document.getElementById("results").innerText = 'You: ' + result.player + '\n\nYour opponent: ' + result.opponent + '\n\nResult: you ' + result.result.toUpperCase();
+	} else{
+		$('#results').show();
+		document.getElementById("results").innerText = result.player;
+	}
+}
+
+//viewrules

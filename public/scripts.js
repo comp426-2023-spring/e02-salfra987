@@ -70,7 +70,7 @@ function viewRules(){
     - Spock VAPORIZES Rock
     - Rock CRUSHES Scissors`;
 	
-	document.getElementById("rules").hidden = true;
-	document.getElementById("hide-rules-button").hidden = true;
-	document.getElementById("rules-button").hidden = false;
+	document.getElementById("rules").hidden = false;
+	document.getElementById("hide-rules-button").hidden = false;
+	document.getElementById("rules-button").hidden = true;
 }

@@ -51,4 +51,26 @@ async function playGame(){
 	}
 }
 
-//viewrules
+function viewRules(){
+	document.getElementById("rules").innerText = 
+    `Rules for Rock Paper Scissors:
+    - Scissors CUTS Paper
+    - Paper COVERS Rock
+    - Rock CRUSHES Scissors
+
+    Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
+    - Scissors CUTS Paper
+    - Paper COVERS Rock
+    - Rock SMOOSHES Lizard
+    - Lizard POISONS Spock
+    - Spock SMASHES Scissors
+    - Scissors DECAPITATES Lizard
+    - Lizard EATS Paper
+    - Paper DISPROVES Spock
+    - Spock VAPORIZES Rock
+    - Rock CRUSHES Scissors`;
+	
+	document.getElementById("rules").hidden = true;
+	document.getElementById("hide-rules-button").hidden = true;
+	document.getElementById("rules-button").hidden = false;
+}

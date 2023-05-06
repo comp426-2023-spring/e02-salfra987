@@ -142,6 +142,4 @@ app.get('/app/rpsls/play/:shot', (req, res) => {
 app.all('*', (req, res) => {
     res.status(404).send('404 NOT FOUND').end();
 })
-
-app.listen(port);
 //take control or library and put it in...

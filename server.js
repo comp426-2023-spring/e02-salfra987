@@ -109,6 +109,8 @@ import { rps, rpsls } from "./lib/rpsls.js";
 
 //copy and paste api where each of the endpoints are serving
 
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
 //take a04 endpoints into this file
 
 //take control or library and put it in...

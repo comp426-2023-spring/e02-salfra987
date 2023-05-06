@@ -16,3 +16,15 @@ function showHideShots(){
 		$('.shots').hide();
 	}
 }
+
+function resetGame(){
+	document.getElementById('userinput').reset();
+	$('#results').hide();
+	$('#userinput').show();
+	$('#play').show();
+	showHideShots();
+}
+
+async function playGame(){
+	$('#userinput').hide();
+	$('#play').hide();

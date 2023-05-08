@@ -19,5 +19,18 @@ button[type="button"] {
     border:1px solid;
     border-color: #696 #363 #363 #696;
 }
+
+input[type="radio"], input[type="checkbox"]{
+      appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 50%;
+}
+
 p {
 }

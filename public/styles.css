@@ -21,16 +21,19 @@ button[type="button"] {
 }
 
 input[type="radio"], input[type="checkbox"]{
-      appearance: none;
-  background-color: #fff;
+      appearance: auto;
+  background-color: #008080;
   margin: 0;
-  font: inherit;
-  color: currentColor;
+  font: bold 84% 'trebuchet ms',helvetica,sans-serif;
+  color: #050;
   width: 1.15em;
   height: 1.15em;
-  border: 0.15em solid currentColor;
-  border-radius: 50%;
+  border:1px solid;
+    border-color: #696 #363 #363 #696;
 }
 
+label {
+font: bold 84% 'trebuchet ms',helvetica,sans-serif;
+color: #fed;
 p {
 }

@@ -12,7 +12,7 @@ h1 {
 }
 
 
-input[type="button"] {
+button[type="button"] {
     color:#050;
     font: bold 84% 'trebuchet ms',helvetica,sans-serif;
     background-color:#fed;

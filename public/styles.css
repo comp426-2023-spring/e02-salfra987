@@ -3,7 +3,21 @@ body {
 }
 
 h1 {
+	color: #3aba69;
+	font-family: 'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
+	font-size: 64px;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 6px;
 }
 
+
+input[type="button"] {
+    color:#050;
+    font: bold 84% 'trebuchet ms',helvetica,sans-serif;
+    background-color:#fed;
+    border:1px solid;
+    border-color: #696 #363 #363 #696;
+}
 p {
 }
